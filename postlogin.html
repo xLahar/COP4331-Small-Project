@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="postlogin.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Contact Manager</h1>
+            <div class="user-menu">
+                <button>
+                <div class="dropdown-menu">
+                    <button id="sign-out">Sign Out</button>
+                </div>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="second-header-content">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search contacts...">
+        </div>
+        <button id="add-contact-btn">Add Contact + </button>
+    </div> 
+    
+    
+    <div class="contact-form-container" id="contact-form">
+        <h2>Add Contact</h2>
+        <form id="contact-form-element">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone">
+            <button type="submit">Add Contact</button>
+        </form>
+    </div>
+    
+    <div class="contacts-grid">
+        <!-- Placeholder contacts -->
+        <div class="contact-card" data-contact="Contact 1">Contact 1</div>
+        <div class="contact-card" data-contact="Contact 2">Contact 2</div>
+        <div class="contact-card" data-contact="Contact 3">Contact 3</div>
+        <div class="contact-card" data-contact="Contact 4">Contact 4</div>
+        <div class="contact-card" data-contact="Contact 5">Contact 5</div>
+        <div class="contact-card" data-contact="Contact 6">Contact 6</div>
+        <div class="contact-card" data-contact="Contact 7">Contact 7</div>
+        <div class="contact-card" data-contact="Contact 8">Contact 8</div>
+        <div class="contact-card" data-contact="Contact 9">Contact 9</div>
+    </div>
+    
+    
+    <script src="postlogin.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
